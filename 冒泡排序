@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int a[5]={3,8,3,2,9};
+	int p,i,tmp;
+	for(p=1;p<5;p++)
+	{
+		for(i=0;i<5-1;i++)
+		{
+			if(a[i]>a[i+1])
+			{
+				tmp=a[i];
+				a[i]=a[i+1];
+				a[i+1]=tmp;
+			}
+		}
+	}
+	for(i=0;i<5;i++)
+	{
+		printf("%d ",a[i]);
+	}
+	return 0;
+}
