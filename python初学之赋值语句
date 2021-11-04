@@ -1,0 +1,21 @@
+a=12    #a的赋值
+b=a
+print(a+b)  
+a="hello"  #a也可以赋值字符串
+print(a)
+a='hello'
+print(a)
+a=2+3
+b=a     #让b和a的字相同
+print(a)
+print(b)
+b=b+a     #b赋值为原来的b+原来的a
+print(b)
+a,b='hello',12   #可以同时赋值这里的  ， 在打出来的时候是空格
+print(a,b)      #在打印的时候也可以用 ， 来同时打印出a和b
+a,b=b,a         #a和b交换的意思
+print(a,b)      
+c,b,a=a,a,b     #这里说明三个也是可以同时赋值
+print(a,b,c)  #也可以同时打印的
+a=b=c=10      #这里是让abc同时赋值为10
+print(a,b,c)   #这里是同时打印
