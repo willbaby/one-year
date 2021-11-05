@@ -1,0 +1,21 @@
+//输入m~n的数计算总和
+#include <stdio.h>
+int sum(int m, int n);//声明函数
+int main()
+{    
+    int m, n;
+    scanf("%d %d", &m, &n);    //输入两个数
+    printf("sum = %d\n", sum(m, n));  //打印这两个数
+    return 0;
+}
+
+int sum( int m, int n )
+{
+    int s=0;   //s用来计算
+    int i=0;    //i是所需循环的变量
+    for(i=m;i<=n;i++)
+    {
+        s=s+i;       
+    }
+    return s;     //返回一个总和
+}
