@@ -1,0 +1,9 @@
+print(1,2,3,end="") #可以连接
+print("ok")
+x=input()    #可以输入
+print(x)
+x=input("please put your name")
+print(x+" hello!")
+a=int(input())   #可以转成整数
+b=int(input())
+print(a+b)
