@@ -6,7 +6,7 @@ print(a)
 a='hello'
 print(a)
 a=2+3
-b=a     #让b和a的字相同
+b=a     #让b和a的值相同
 print(a)
 print(b)
 b=b+a     #b赋值为原来的b+原来的a
