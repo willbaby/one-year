@@ -1,0 +1,9 @@
+#关于字符串和数转换的那些事
+a=15
+b="12"
+print(a+int(b))
+print(str(a)+b)
+c=1+float("1.2")
+print(c)
+print(eval("3+2"))
+print(eval("a+3"))
