@@ -1,0 +1,9 @@
+tmpstr=input("请输入带符号的温度值：")
+if tmpstr[-1] in ['f','F']:
+    c=(float(tmpstr[0:-1])-32)/1.8
+    print("转换后的温度："+str(c)+"c")
+elif tmpstr[-1] in "Cc":
+    F=1.8*eval(tmpstr[0:-1])+32
+    print("转化的温度是："+str(F)+"F")
+else:
+    print("输入的格式有错误")
